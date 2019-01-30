@@ -134,4 +134,18 @@ section p{
   */
   /* border-radius: 70px; */
   border-radius: 50%;
+  /*
+  border
+    色、幅、スタイルは順不同でまとめて記述可
+  */
+  /* border-color: pink;
+  border-width: 5px;
+  border-style: solid; */
+  border: 5px solid white;
+  /*
+  影
+    box-shadow: x y blur color
+  */
+  /* box-shadow: 10px 10px 5px black */
+  box-shadow: 0px 0px 5px gray
 }
