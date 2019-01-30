@@ -32,11 +32,20 @@ body {
 
 header {
   /* 背景色 */
-  background-color: pink;
+  /* background-color: pink; */
   /* 要素のアライメント */
   text-align: right;
   /* パディング */
   padding: 10px;
+  /* 背景画像 */
+  background-image: url(../img/header.png);
+  /* 背景画像のサイズ=縦横比を維持したまま最大サイズ */
+  background-size: cover;
+  /* 背景画像のストレッチの起点=中央 */
+  background-position: 50% 50%;
+
+  height: 240px;
+  margin-bottom: 60px;
 }
 
 ul {
