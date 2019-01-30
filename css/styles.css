@@ -1,7 +1,39 @@
-h1 {
-  color: red; /* color name */
-  color: rgb(0, 255, 0); /* 2byte整数表現 */
-  color: #0000ff; /* HEX表現 */
-  color: #00f; /* HEX表現で同値が並ぶ場合は省略可能 */
+body {
+  /*
+  color属性
+    色名
+    2バイト10進数 rgb(r,g,b)
+    2バイト16進数 #rrggbb
+    2バイト16進各rgb成分が同値の場合 #rgb
+  */
+  /* color: red;
+  color: rgb(0, 255, 0);
+  color: #0000ff;
+  color: #00f; */
   color: #333;
+
+  /*
+  font-family属性
+    インストール優先順に指定 フォント[, フォント]
+  */
+  font-family: Verdana, sans-serif;
+
+  /*
+  margin属性
+    上下左右が同値の場合属性はmarginに集約できる
+    pxは省略できる
+  */
+  /* margin-top: 0px;
+  margin-bottom: : 0px;
+  margin-left: : 0px;
+  margin-right: : 0px; */
+  margin: 0px;
+}
+
+header {
+  background-color: pink;
+}
+
+ul {
+  margin: 0px;
 }
