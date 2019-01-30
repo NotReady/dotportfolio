@@ -207,3 +207,12 @@ footer p {
 .current {
   border-bottom: 4px solid royalblue;
 }
+
+.about {
+  width: 400px;
+  margin: 0px auto 60px;
+}
+
+.about p {
+  text-align: left;
+}
