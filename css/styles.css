@@ -22,6 +22,8 @@ body {
   margin
     上下左右が同値の場合属性はmarginに集約できる
     0pxはpxを省略できる
+    marginの相殺
+      上下に隣接する要素のマージンは大きい値が採用され、小さい方は打ち消される
   */
   /* margin-top: 0px;
   margin-bottom: : 0px;
@@ -99,4 +101,15 @@ a {
 section {
   /* センタリング */
   text-align: center;
+}
+
+/* 複数の要素構造時のセレクタ */
+section h1 {
+  font-weight: normal;
+  margin-bottom: 8px;
+}
+
+section p{
+  margin-top: 0px;
+  font-size: 14px;
 }
