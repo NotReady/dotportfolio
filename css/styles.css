@@ -149,3 +149,13 @@ section p{
   /* box-shadow: 10px 10px 5px black */
   box-shadow: 0px 0px 5px gray
 }
+
+.works {
+  width: 400px;
+}
+
+/* 複数のセレクタに同じ属性を設定するにはカンマ区切り */
+.works h1,
+.works p {
+  text-align: left;
+}
