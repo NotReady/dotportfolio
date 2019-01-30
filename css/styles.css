@@ -33,6 +33,10 @@ body {
 header {
   /* 背景色 */
   background-color: pink;
+  /* 要素のアライメント */
+  text-align: right;
+  /* パディング */
+  padding: 10px;
 }
 
 ul {
