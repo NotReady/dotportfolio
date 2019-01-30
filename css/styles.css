@@ -95,3 +95,8 @@ a {
  a:hover {
    color: royalblue;
  }
+
+section {
+  /* センタリング */
+  text-align: center;
+}
