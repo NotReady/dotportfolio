@@ -60,3 +60,25 @@ li {
   */
   font-size: 12px;
 }
+
+a {
+  /*
+  テキスト装飾(リンクの下線)
+    none 無効
+   */
+  text-decoration: none;
+  /*
+  継承する
+    inherit 親要素の属性値を継承する
+  */
+  color: inherit;
+}
+
+/*
+  擬似クラス element:action
+    要素が特定の状態にある時
+ */
+ /* a要素にマウスが乗った時 */
+ a:hover {
+   color: royalblue;
+ }
